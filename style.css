@@ -1,0 +1,44 @@
+header {
+background-color: #d2f03e;
+}
+
+li .header {
+    display: inline;
+}
+
+img {
+   height: auto;
+   width: auto;
+   border: 5px solid #4BE3B0;
+   padding: 5px;
+   margin: 0 300px;
+}
+
+sub {
+    text-align: center;
+}
+
+h1 {
+    color: #AFBDB8;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#cuteness {
+    text-align: center;
+    margin: auto;
+}
+
+body {
+background-color: #AFBDB8;
+}
+
+
+blockquote {
+    color: #4BE3B0;
+    background-color: #d2f03e;
+}
+
+li {
+    color: #4BE3B0;
+}
