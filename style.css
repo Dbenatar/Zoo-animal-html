@@ -42,3 +42,7 @@ blockquote {
 li {
     color: #4BE3B0;
 }
+
+button {
+    margin: auto 400px;
+}
