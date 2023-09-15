@@ -13,7 +13,9 @@ img {
    padding: 5px;
    margin: 0 300px;
 }
-
+.getBananna {
+    width: 100px;
+}
 
 sub {
     text-align: center;

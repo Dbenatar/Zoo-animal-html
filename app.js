@@ -23,10 +23,15 @@
 //document.write(message);
 //}
 
+// Loop working. I want to apply CSS to diplay the resulting images in a nicer way.
 function getBananna() {
-    let feeding = prompt("How many banannas 1-10?" ,"10");
+    let feeding = prompt("How many banannas 1-10?");
 
-    for (let i = 0; i < feeding; i++) {
-        document.write("<img src='pizzapanda.png'/>")
+    while (feeding < 0 || feeding >= 10) {
+        feeding = prompt("Please enter 10 or lower!")
+     document.write("<img src='pizzapanda.png'/>")
     }
-}
+    //for (let i = 0; i < feeding; i++) {
+        //document.write("<img src='pizzapanda.png'/>")
+    }
+    
