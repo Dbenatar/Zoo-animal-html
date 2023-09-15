@@ -7,12 +7,13 @@ li .header {
 }
 
 img {
-   height: auto;
-   width: auto;
+   height: 400px;
+   width: 450px;
    border: 5px solid #4BE3B0;
    padding: 5px;
    margin: 0 300px;
 }
+
 
 sub {
     text-align: center;
@@ -44,6 +45,9 @@ li {
 }
 
 button {
-    margin: auto 450px;
+    margin: 20px 450px;
     align-items: center;
+    border-radius: 20px;
+    background-color: #d2f03e;
+    border-color: #4BE3B0
 }
