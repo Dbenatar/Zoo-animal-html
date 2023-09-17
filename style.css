@@ -1,21 +1,35 @@
 header {
 background-color: #d2f03e;
+border-radius: 5px;
+padding-bottom: 5px;
 }
 
-li .header {
+li a {
     display: inline;
 }
 
 img {
-   height: 400px;
-   width: 450px;
+    display: inline;
+   height: auto;
+   max-width: 100%;
    border: 5px solid #4BE3B0;
    padding: 5px;
    margin: 0 300px;
 }
-.getBananna {
-    width: 100px;
+.headerimg {
+    max-width: 600px;
+    max-height: 600px;
+    display: block;
+    justify-content: center;
 }
+
+.loop {
+    max-width: 50%;
+    max-height: 50%;
+    display: inline-block;
+    
+}
+
 
 sub {
     text-align: center;
@@ -40,6 +54,9 @@ background-color: #AFBDB8;
 blockquote {
     color: #4BE3B0;
     background-color: #d2f03e;
+    border-radius: 5px;
+    margin-left: 5px;
+    padding: 5px 10px;
 }
 
 li {
@@ -52,4 +69,8 @@ button {
     border-radius: 20px;
     background-color: #d2f03e;
     border-color: #4BE3B0
+}
+
+p {
+    text-decoration: underline;
 }
